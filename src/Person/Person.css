@@ -58,7 +58,7 @@
 .name{
     font-size: 2.5rem;
 }
-@media only screen and (max-width:600px) and (min-width:375px){
+@media only screen and (max-width:600px) and (min-width:344px){
     #person{
         width:100%;
         height: 35%;
