@@ -1,0 +1,28 @@
+@font-face{
+  font-family: 'Rubik';
+  src: url('./assets/Rubik/static/Rubik-Light.ttf');
+}
+html{
+  width: 100%;
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Rubik';
+}
+#root{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(226, 43%, 10%);
+}
+@media only screen and (max-width:600px) and (min-width:375px){
+  
+  #root{
+  overflow:scroll ;  
+}
+}

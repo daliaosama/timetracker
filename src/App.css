@@ -1,0 +1,16 @@
+main{
+  width: 70%;
+  height:32rem;
+  display:flex;
+  column-gap: 2rem;
+}
+@media only screen and (max-width:600px) and (min-width:375px){
+  main{
+    flex-direction: column;
+    height: 80%;
+    row-gap: 1.5rem;
+    width: 90%;
+    padding-bottom:2rem ;
+   box-sizing: border-box;
+  }
+}
