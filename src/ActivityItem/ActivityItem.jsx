@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import './ActivityItem.css'
-import ellipsis from '/assets/icon-ellipsis.svg'
+import ellipsis from '../assets/icon-ellipsis.svg'
 function ActivityItem(props){
     return(
     <div className='ActivityItem'style={{backgroundColor:props.color,backgroundImage:`url(${props.img})`}}>

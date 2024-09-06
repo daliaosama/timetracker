@@ -1,5 +1,5 @@
 import './Person.css'
-import jeremy from '/assets/image-jeremy.png'
+import jeremy from '../assets/image-jeremy.png'
 function Person(){
     return(
         <div id="person">
