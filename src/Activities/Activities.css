@@ -17,3 +17,11 @@
   
 }
 }
+@media only screen and (min-width:712px) and (max-width:801px) {
+  #Activities{
+    grid-template-columns: repeat(1,100%);
+   grid-template-rows: repeat(6,15rem); 
+     width: 100%;
+     height:65%;
+     row-gap: 1.5rem;
+}

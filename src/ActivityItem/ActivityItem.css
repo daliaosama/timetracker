@@ -65,3 +65,9 @@
 }
 
 }
+@media only screen and (min-width:712px) and (max-width:801px) {
+    .duration{flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

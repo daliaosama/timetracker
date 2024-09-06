@@ -1,6 +1,6 @@
 @font-face{
   font-family: 'Rubik';
-  src: url('./assets/Rubik/static/Rubik-Light.ttf');
+  src: url('/assets/Rubik/static/Rubik-Light.ttf');
 }
 html{
   width: 100%;
@@ -21,6 +21,14 @@ body{
   background-color: hsl(226, 43%, 10%);
 }
 @media only screen and (max-width:600px) and (min-width:344px){
+  html,body{
+    height: auto;
+  }
+  #root{
+  overflow:scroll ;  
+}
+}
+@media only screen and (min-width:712px) and (max-width:801px) {
   html,body{
     height: auto;
   }

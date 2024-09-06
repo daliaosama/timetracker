@@ -1,11 +1,11 @@
 import './Activities.css'
 import ActivityItem from '../ActivityItem/ActivityItem'
-import work from '../assets/icon-work.svg'
-import play from '../assets/icon-play.svg'
-import study from '../assets/icon-study.svg'
-import exercise from '../assets/icon-exercise.svg'
-import social from '../assets/icon-social.svg'
-import selfcare from '../assets/icon-self-care.svg'
+import work from '/assets/icon-work.svg'
+import play from '/assets/icon-play.svg'
+import study from '/assets/icon-study.svg'
+import exercise from '/assets/icon-exercise.svg'
+import social from '/assets/icon-social.svg'
+import selfcare from '/assets/icon-self-care.svg'
 
 function Activities(){
     const arrayofObjects=[
